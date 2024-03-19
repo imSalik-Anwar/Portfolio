@@ -1,0 +1,68 @@
+.about-banner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-left{
+    width: 50%;
+    height: 350PX;
+    margin: auto;
+    flex-direction: column;
+    text-align: justify;
+}
+.about-left>h1{
+    font-family: 'Playfair Display', serif !important;
+}
+.about-left>p{
+    color: gray;
+}
+.btn1{
+    background-color: #FDC435;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 20px;
+}
+.btn1:hover{
+    text-decoration: none;
+    color: black;
+}
+.about-right{
+    width: 25%;
+    height: 400px;
+    margin: auto;
+    background-color: #FDC435;
+    position: relative;
+}
+img{
+    position: absolute;
+    top: -40px;
+    right: 25px;
+    height: 110%;
+}
+.about-navbar{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+.about-navbar>ul{
+    display: block;
+    list-style: none;
+}
+.about-navbar>ul>li{
+    float: left;
+    padding-inline: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.about-navbar>ul>li:hover{
+    text-decoration: underline;
+}

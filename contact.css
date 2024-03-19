@@ -1,0 +1,122 @@
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+.navbar>ul{
+    display: block;
+    list-style: none;
+}
+.navbar>ul>li{
+    float: left;
+    padding-inline: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.navbar>ul>li:hover{
+    text-decoration: underline;
+}
+#container{
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    width: 80%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+#left{
+    width: 50%;
+    height: 90%;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+#heading{
+    margin-bottom: 20px;
+}
+#heading>span{
+    color: #FDC435;
+}
+input{
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 270px;
+}
+/* Italicize placeholder text */
+::placeholder {
+    font-style: italic;
+}
+textarea{
+    border-radius: 3px;
+    border: 1px solid #ccc; 
+}
+label{
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+}
+#error{
+    font-style: italic;
+}
+#submit-btn{
+    background-color: #FDC435;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 20px;
+    margin-top: 20px;
+}
+#right{
+    width: 50%;
+    height: 90%;
+    box-sizing: border-box;
+    background-image: url("./yellow-bg.png");
+}
+img{
+    position: absolute;
+    bottom: 22px;
+    right: 150px;
+    height: 400px;
+    display: inline;
+}
+#icons{
+    position: absolute;
+    top:45px;
+    right: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+#icons>a{
+    cursor: pointer;
+    color: rgb(43, 42, 42);
+}
+#icons>a:hover{
+    transform: scale(1.2);
+}
+#phone-box{
+    position: absolute;
+    top: 75px;
+    right: 40px;   
+    background-color: rgb(43,42,42);
+    color: white;
+    padding-inline: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 2px;
+    font-weight: 600;
+}
+.hide{
+    display: none;
+}

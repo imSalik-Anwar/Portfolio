@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.navbar{
+    justify-content: end;
+    margin-right: 25px;
+    z-index: 2;
+}
+.navbar>ul{
+    display: block;
+    list-style: none;
+}
+.navbar>ul>li{
+    float: left;
+    padding-inline: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.navbar>ul>li:hover{
+    text-decoration: underline;
+}
+.banner{
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    background-color: white;
+}
+.left{
+    width: 25%;
+    height: 350PX;
+    margin: auto;
+    flex-direction: column;
+    margin-left: 15%;
+    text-align: justify;
+}
+#job-title{
+    color: #FDC435;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.left>h1{
+    font-family: 'Playfair Display', serif !important;
+}
+.left>h1>span{
+    font-weight: 600;
+    color: #FDC435;
+}
+#description{
+    color: gray;
+    padding-right: 10px;
+}
+.btn1{
+    background-color: #FDC435;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 20px;
+}
+a{
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-inline: 20px;
+}
+a:hover{
+    text-decoration: none;
+    background-color: #0965C2;
+    color: white;
+}
+.right{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 40%;
+    height: 500PX;
+    background-image: url("./yellow-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+img{
+    position: absolute;
+    right: 150px;
+    bottom: 0px;
+}
