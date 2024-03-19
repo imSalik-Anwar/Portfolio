@@ -45,24 +45,25 @@ img{
     right: 25px;
     height: 110%;
 }
-.about-navbar{
+.navbar{
     position: fixed;
     top: 0px;
     right: 0px;
     margin-right: 35px;
     margin-top: 10px;
 }
-.about-navbar>ul{
+.navbar>ul{
     display: block;
     list-style: none;
 }
-.about-navbar>ul>li{
+.navbar>ul>a{
     float: left;
     padding-inline: 10px;
     font-weight: 500;
     margin-top: 10px;
     cursor: pointer;
+    color: black;
 }
-.about-navbar>ul>li:hover{
+.navbar>ul>a>li:hover{
     text-decoration: underline;
 }

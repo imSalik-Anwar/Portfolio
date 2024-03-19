@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 .navbar{
-    justify-content: end;
-    margin-right: 25px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin-right: 35px;
+    margin-top: 10px;
     z-index: 2;
 }
 .navbar>ul{
     display: block;
     list-style: none;
 }
-.navbar>ul>li{
+.navbar>ul>a{
     float: left;
     padding-inline: 10px;
     font-weight: 500;
     margin-top: 10px;
     cursor: pointer;
+    color: black;
 }
-.navbar>ul>li:hover{
+.navbar>ul>a>li:hover{
     text-decoration: underline;
 }
 .banner{
@@ -57,7 +61,7 @@
     padding-bottom: 5px;
     padding-inline: 20px;
 }
-a{
+#linkedin{
     background-color: white;
     border: 2px solid gray;
     border-radius: 5px;
@@ -66,7 +70,7 @@ a{
     padding-bottom: 4px;
     padding-inline: 20px;
 }
-a:hover{
+#linkedin:hover{
     text-decoration: none;
     background-color: #0965C2;
     color: white;

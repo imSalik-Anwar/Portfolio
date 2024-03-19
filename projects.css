@@ -9,14 +9,15 @@
     display: block;
     list-style: none;
 }
-.navbar>ul>li{
+.navbar>ul>a{
     float: left;
     padding-inline: 10px;
     font-weight: 500;
     margin-top: 10px;
     cursor: pointer;
+    color: black;
 }
-.navbar>ul>li:hover{
+.navbar>ul>a>li:hover{
     text-decoration: underline;
 }
 #container-1{
