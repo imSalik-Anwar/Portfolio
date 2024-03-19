@@ -16,6 +16,7 @@
     margin-top: 10px;
     cursor: pointer;
     color: black;
+    text-shadow: 3px 3px 5px white;
 }
 .navbar>ul>a>li:hover{
     text-decoration: underline;
@@ -34,7 +35,7 @@
     width: 50%;
     padding: 20px;
 }
-#left>h3{
+#left>h1{
     font-family: 'Playfair Display', serif !important;
 }
 #left>p{
